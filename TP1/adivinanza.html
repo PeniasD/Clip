@@ -21,10 +21,10 @@
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="pixelart.html">Pixel Art</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="adivinanza.html">Adivinanza</a>
         </li>
         <li class="nav-item">
@@ -33,20 +33,17 @@
       </ul>
     </div>
 </nav>
-    <div class="container text-center pt-4 pb-2">
-        <H1 class="pb-2">Qué es Pixel Art?</H1>
-        <img class="pb-2" src="https://images.squarespace-cdn.com/content/525ead10e4b03a9509e1cbf7/1486447726751-9M9UX2PDT9YGM14YTGXY/Megaman-X3-walking-animation-26-frames.gif?content-type=image%2Fgif" alt="">
-        <p>
-            El pixel art o arte de píxel1​ es una forma de arte digital, creada a través de una computadora 
-            mediante el uso de programas de edición de gráficos rasterizados, donde las imágenes son editadas 
-            al nivel del píxel. Las imágenes de la mayor parte de los antiguos videojuegos para PC, videoconsolas 
-            y muchos juegos para teléfonos móviles son consideradas obras de pixel art. 
-            Posee similitudes con el puntillismo, difiriendo principalmente en las herramientas para la creación 
-            de las imágenes: computadoras y programas en lugar de pinceles y lienzos. 
-        </p>
-        <p>
-            La terminología pixel art fue publicada por primera vez en 1982 por Adele Goldberg y Robert Flegal del Centro de Investigación de Xerox en Palo Alto. 
-        </p>
+    <div class="container text-center">
+        <H1 class="pt-4">¿Cuantos colores hay posibles en 8 bits?</H1>
+        <p>Recorda que tenes 3 intentos posibles</p>
+        <div class="form-group">
+          <input type="text" class="form-control" id="pregunta">
+        </div>
+        <button class="btn btn-primary" onclick="tryAnswer()">Probar respuesta</button>
+        <p class="pt-4" id="clue"></p>
+        <p class="pt-4" id="tryQuantity"></p>
     </div>
 </body>
+<script src="global.js"></script>
 </html>
+
